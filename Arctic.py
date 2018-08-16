@@ -25,13 +25,13 @@ async def on_ready():
 
 @bot.event
 async def on_member_join(member):
-    serverchannel = discord.Object("421720136693841921")
+    serverchannel = discord.Object("478266908936896532")
     msg = "Welcome {0} to {1}".format(member.mention, member.server.name)
     await bot.send_message(serverchannel, msg)
 
 @bot.event
 async def on_member_remove(member):
-    serverchannel = discord.Object("421720136693841921")
+    serverchannel = discord.Object("478266908936896532")
     msg = "Looks like {0} left us. Bye bye.".format(member.name)
     await bot.send_message(serverchannel, msg)
 
@@ -130,4 +130,4 @@ async def on_message(message):
 
 #token
 
-bot.run("NDczNTc2MzcwNzkwOTg5ODU1.DkEIIQ.zm2KXPdXIBtTGQINhJLvTHuujX0")
+bot.run("Fuck_you_wiktor")
